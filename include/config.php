@@ -5,7 +5,7 @@
 	session_start();
 	header('Content-Type: text/html; charset=utf-8');
 
-	$conexion = mysqli_connect('localhost', 'inforcon', 'blackballoon17', 'inforcon_inventomatic');
+	$conexion = mysqli_connect('localhost', 'root', '', 'inforcon_inventomatic');
 
 	if (!$conexion) {
 	    echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
